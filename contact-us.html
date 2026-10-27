@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us</title>
+
+    <link rel="stylesheet" href="css/contact-us.css">
+
+</head>
+
+<body>
+
+    <!--==========================
+            Navbar
+    ==========================-->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            <a href="index.php">Student Accommodation</a>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.php">Home</a></li>
+            <li><a href="properties.php">Properties</a></li>
+            <li><a href="about-us.php">About Us</a></li>
+            <li><a href="contact-us.html" class="active">Contact Us</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="signup.html">Signup</a></li>
+        </ul>
+
+    </nav>
+
+<section class="contact-hero">
+
+    <div class="contact-overlay">
+
+        <h1>Contact Us</h1>
+
+        <p>
+            We'd love to hear from you. Get in touch with us for any
+            accommodation queries or support.
+        </p>
+
+    </div>
+
+</section>
+
+<!--==========================
+      Contact Information
+===========================-->
+
+<section class="contact-container">
+
+    <div class="contact-info">
+
+        <h2>Get In Touch</h2>
+
+        <p class="contact-text">
+            Have questions about booking, properties or student accommodation?
+            Our team is here to help you.
+        </p>
+
+        <div class="contact-item">
+
+            <img src="icons/location.svg" alt="Location">
+
+            <div>
+
+                <h3>Address</h3>
+
+                <p>Ambala, Haryana, India</p>
+
+            </div>
+
+        </div>
+
+        <div class="contact-item">
+
+            <img src="icons/phone.png" alt="Phone">
+
+            <div>
+
+                <h3>Phone</h3>
+
+                <p>+91 98765 43210</p>
+
+            </div>
+
+        </div>
+
+        <div class="contact-item">
+
+            <img src="icons/mail.png" alt="Email">
+
+            <div>
+
+                <h3>Email</h3>
+
+                <p>support@studentaccommodation.com</p>
+
+            </div>
+
+        </div>
+
+        <div class="contact-item">
+
+            <img src="icons/clock.png" alt="Clock">
+
+            <div>
+
+                <h3>Working Hours</h3>
+
+                <p>Monday - Saturday</p>
+
+                <p>9:00 AM - 7:00 PM</p>
+
+            </div>
+
+        </div>
+
+    </div>
+        <!--==========================
+            Contact Form
+    ===========================-->
+
+    <div class="contact-form">
+
+        <h2>Send a Message</h2>
+
+        <p id="contactMessage" style="display:none;"></p>
+
+        <form id="contactForm">
+
+            <div class="input-group">
+
+                <input type="text"
+                       id="fullName"
+                       placeholder="Full Name"
+                       required>
+
+            </div>
+
+            <div class="input-group">
+
+                <input type="email"
+                       id="email"
+                       placeholder="Email Address"
+                       required>
+
+            </div>
+
+            <div class="input-group">
+
+                <input type="text"
+                       id="phone"
+                       placeholder="Phone Number"
+                       required>
+
+            </div>
+
+            <div class="input-group">
+
+                <input type="text"
+                       id="subject"
+                       placeholder="Subject"
+                       required>
+
+            </div>
+
+            <div class="input-group">
+
+                <textarea rows="6"
+                          id="message"
+                          placeholder="Write your message..."
+                          required></textarea>
+
+            </div>
+
+            <button type="submit" class="btn">
+
+                Send Message
+
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<!--==========================
+          Location Section
+===========================-->
+
+<section class="map-section">
+
+    <h2>Our Location</h2>
+
+    <p>
+        Visit our office or contact us anytime.
+        We are always ready to help students find
+        the perfect accommodation.
+    </p>
+
+    <div class="map-box">
+
+        <iframe
+            src="https://www.google.com/maps?q=Ambala,Haryana&output=embed"
+            loading="lazy"
+            allowfullscreen>
+        </iframe>
+
+    </div>
+
+</section>
+
+<script src="js/config.js"></script>
+<script src="js/contact.js"></script>
+</body>
+
+</html>
